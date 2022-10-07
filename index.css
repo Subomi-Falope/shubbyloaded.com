@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkslategray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    /* overflow: hidden; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+header {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: end;
+    font-size: large;
+    padding: 21.40px;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 250;
+    background-color: rgb(68, 109, 109);
+}
+
+header a {
+    text-decoration: none;
+    margin: 7px;
+    color: bisque;
+}
+
+header a:hover {
+    font-size: 19.8px;
+    text-decoration: underline;
+    transition: all ease-in 0s;
+    color: whitesmoke;
+}
+header a:active {
+    font-size: 19.8px;
+    text-decoration: overline;
+    transition: all ease-in 0s;
+    color: burlywood;
+}
+
+
+.shubbyloaded {
+    /* color: burlywood; */
+    color: rgb(136, 203, 181);
+    cursor: pointer;
+    /* text-align: center; */
+    flex: 20px;
+    font-size: 30px;
+}
+
+.shubbyloaded:hover {
+    color: whitesmoke;
+    transition: all ease-in-out 0.3s;
+}
+
+.firstimage {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.firstimage:hover {
+    color: burlywood;
+}
+
+.dullsong {
+    background-color: burlywood;
+
+}
+
+main {
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+
+}
+
+.card {
+    width: 311px;
+    height: 290px;
+    background-color: rgba(255, 255, 255, 0.662);
+    border-radius: 7px;
+    border: 2px solid;
+    /* margin: 10.2px; */
+    margin: 11.2px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.next {
+    width: 311px;
+    height: 290px;
+    background-color: rgba(255, 255, 255, 0.662);
+    border-radius: 7px;
+    border: 2px solid;
+    margin: 11.2px;
+    margin-top: 70px;
+}
+
+.next img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
